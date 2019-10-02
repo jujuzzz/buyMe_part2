@@ -34,7 +34,7 @@ public class dbConnection {
 		}
 		try {
 			//Create a connection to your DB
-			conn = DriverManager.getConnection(connectionUrl,"jujuzzz", "lightness!0831");
+			conn = DriverManager.getConnection(connectionUrl,"jujuzzz", "********");
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
